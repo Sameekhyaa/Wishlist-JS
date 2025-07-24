@@ -1,0 +1,42 @@
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
+
+:root {
+  --text-color-primary: #f9fafb;
+  --background-color: #0b311b;
+}
+
+body{
+    background-color: var(--background-color);
+}
+
+.main{
+    padding: 2rem 0;
+     width:30vw;
+    margin-left: 50vw;
+    transform: translateX(-50%);
+}
+
+.heading{
+    color:var(--text-color-primary);
+    text-align:center;
+    margin-bottom: 0.5rem;
+}
+
+input{
+    border-radius:4px;
+    font-size:1.25rem;
+    padding:0.5rem;
+    border:none;
+    width:25vw;
+    margin-bottom:0.5rem;
+}
+
+.btn{
+  font-size: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  border-radius: 10%;
+  background-color: rgb(233, 56, 56);
+  color: var(--text-color-primary);
+  font-weight: 700;
+}
